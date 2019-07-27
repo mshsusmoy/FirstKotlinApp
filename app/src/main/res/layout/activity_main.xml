@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:text="Say Hello"
+            android:textColor="#FFFFFF"
+            android:id="@+id/textview_say"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+    <Button
+            android:text="Hello"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/hello_button"
+            android:backgroundTint="#27338D"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="20dp"
+            android:id="@+id/recyclerview"/>
+
+</LinearLayout>

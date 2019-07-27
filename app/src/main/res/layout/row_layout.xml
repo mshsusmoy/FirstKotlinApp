@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="300dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:id="@+id/row_text" android:textSize="30sp"
+              android:textColor="#F7F3F3" android:textAlignment="center" android:textStyle="bold"/>
+
+</LinearLayout>
