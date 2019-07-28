@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#69791D">
+
+    <Button
+            android:text="Fragment One"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_fragment_one"
+            android:background="#B1ADC0"
+            android:layout_weight="1"/>
+</LinearLayout>

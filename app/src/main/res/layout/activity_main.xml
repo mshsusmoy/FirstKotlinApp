@@ -10,29 +10,37 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="77dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
             android:text="Say Hello"
             android:textColor="#FFFFFF"
             android:id="@+id/textview_say"
             android:textAlignment="center"
             android:textSize="20sp"
-            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#741C83"
             android:textStyle="bold"/>
     <Button
             android:text="Hello"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="70dp"
             android:id="@+id/hello_button"
             android:backgroundTint="#27338D"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:layout_margin="5dp"/>
+            android:textSize="20sp"/>
     <androidx.recyclerview.widget.RecyclerView
+
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="250dp"
             android:background="@color/colorPrimaryDark"
             android:layout_marginTop="20dp"
+
             android:id="@+id/recyclerview"/>
+    <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+    </FrameLayout>
 
 </LinearLayout>
